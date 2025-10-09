@@ -25,11 +25,11 @@ url: [https://ocw.mit.edu/courses/18-s190-introduction-to-metric-spaces-january-
 >
 > 2. Let $ \{x_n\}$  and $ \{y_n\}$  be Cauchy sequences in $ X$ . Show that $ d(x_n, y_n)$  converges.
 >
-> Hint: show that in a metric space, $ |d(a, b) + d(a', b')| \leq d(a, a') + d(b, b')$ .
+> Hint: show that in a metric space, $ \vert d(a, b) + d(a', b')\vert  \leq d(a, a') + d(b, b')$ .
 >
 > *Remark 1.* You may *not* assume $ x_n$  and $ y_n$  converges in the second part of this problem. This is only true in a Cauchy complete space.
 
-1. Let $ \epsilon>0$ , $ \exists N_1 > 0$ , for $ n \geq N_1$ , $ d(x_n, x) < \epsilon / 2$ . $ \exists N_2 >0$ , for $ n \geq N_2$ , $ d(y_n, y) < \epsilon / 2.$ 
+(1.) Let $ \epsilon>0$ , $ \exists N_1 > 0$ , for $ n \geq N_1$ , $ d(x_n, x) < \epsilon / 2$ . $ \exists N_2 >0$ , for $ n \geq N_2$ , $ d(y_n, y) < \epsilon / 2.$ 
 
 If $ n \geq \max\{N_1, N_2\}$ , then 
  
@@ -38,19 +38,20 @@ $$ d(x_n, y_n) \leq d(x_n, x) + d(x, y) + d(y, y_n)\leq d(x, y) + \epsilon$$
 $$ d(x, y) \leq d(x, x_n) + d(x_n, y_n) + d(y_n, y)\leq d(x_n, y_n) + \epsilon$$ 
  
 Therefore,
-$$ |d(x_n, y_n) - d(x, y)| < \epsilon \Longrightarrow d(x_n, y_n) \to d(x, y)$$ 
- 
-2. Claim: $ |d(a, b) - d(a', b')| < d(a, a') + d(b, b').$ 
 
-Proof: Since $ d(a, b) \leq d(a, a') + d(a', b') + d(b, b),$  then $ d(a, b) - d(a', b') \leq d(a, a') + d(b, b).$  Also $ d(a', b') \leq d(a', a) + d(a, b) + d(b, b'),$  then $ d(a', b) - d(a, b) \leq d(a, a') + d(b, b').$  Thus, $ |d(a, b) - d(a', b')| \leq d(a, a') + d(b, b').$ 
+$$ \vert d(x_n, y_n) - d(x, y)\vert  < \epsilon \Longrightarrow d(x_n, y_n) \to d(x, y)$$ 
+ 
+(2.) Claim: $ \vert d(a, b) - d(a', b')\vert  < d(a, a') + d(b, b').$ 
+
+Proof: Since $ d(a, b) \leq d(a, a') + d(a', b') + d(b, b),$  then $ d(a, b) - d(a', b') \leq d(a, a') + d(b, b).$  Also $ d(a', b') \leq d(a', a) + d(a, b) + d(b, b'),$  then $ d(a', b) - d(a, b) \leq d(a, a') + d(b, b').$  Thus, $ \vert d(a, b) - d(a', b')\vert  \leq d(a, a') + d(b, b').$ 
  
 Let $ \epsilon>0$ . $ \exists M_1 > 0$ , for $ n > M_1$  and $ m > M_1$ , then $ d(x_n, x_m) < \epsilon / 2$ . $ \exists M_2 > 0$ , for all $ n > M_2$ , $ m > M_2$ , then $ d(y_n, y_m) < \epsilon / 2$ .
 
 Denote $ M := \max\{M_1, M_2\}$ , for all $ n > M, m > M$ ,
 
-$$ |d(x_n, y_n) - d(x_m, y_m)| \leq d(x_n, y_n) + d(x_m, y_m) = \epsilon.$$ 
+$$ \vert d(x_n, y_n) - d(x_m, y_m)\vert  \leq d(x_n, y_n) + d(x_m, y_m) = \epsilon.$$ 
 
-Thus, $ \{d(x_n, y_n)\}_{n=1}^\infty$  is a Cauchy sequence in $ \mathbb{R}$ . Since $ \mathbb{R}$  is Cauchy complete, $ \{d(x_n, y_n)\}_{n=1}^\infty$  converges.
+Thus, $$\{d(x_n, y_n)\}_{n=1}^\infty$$  is a Cauchy sequence in $\mathbb{R}$ . Since $ \mathbb{R}$  is Cauchy complete, $$\{d(x_n, y_n)\}_{n=1}^\infty$$  converges.
 
 ### Problem 2
 
@@ -77,7 +78,7 @@ So $  x_n \to y $ . However $  y \notin A $ , which contradicts with the conditi
 > Here, we will show that $  C^0([0,1]) $  is Cauchy complete with respect to the uniform distance. Suppose that $  f_n \in C^0([0,1]) $  is a Cauchy sequence. The uniform distance on $  C^0([a,b]) $  is defined as  
 >
 > $$ 
-> d(f,g) = \max_{x \in [a,b]} |f(x) - g(x)|.
+> d(f,g) = \max_{x \in [a,b]} \vert f(x) - g(x)\vert .
 > $$ 
 > 
 > (a) Fix an arbitrary $  x_0 \in [0,1] $ . Show that $  \lim_{n \to \infty} f_n(x_0) $  exists.  
@@ -85,7 +86,7 @@ So $  x_n \to y $ . However $  y \notin A $ , which contradicts with the conditi
 
 Fix any $  x_0 \in [0,1] $ . Then for $  m,n \in \mathbb{N} $ ,  
 $$ 
-|f_n(x_0) - f_m(x_0)| \le \max_{x\in[0,1]} |f_n(x) - f_m(x)|.
+\vert f_n(x_0) - f_m(x_0)\vert  \le \max_{x\in[0,1]} \vert f_n(x) - f_m(x)\vert .
 $$   
 
 Thus $  (f_n(x_0)) $  is a Cauchy sequence in $  \mathbb{R} $ . Since $  \mathbb{R} $  is complete, the limit  $ \lim_{n\to\infty} f_n(x_0)$  exists for each $  x_0 \in [0,1] $ .
@@ -96,7 +97,7 @@ Thus $  (f_n(x_0)) $  is a Cauchy sequence in $  \mathbb{R} $ . Since $  \mathbb
 > $$   
 > Show that for all $  \varepsilon > 0 $ , there exists $  N \in \mathbb{N} $  such that  
 > $$ 
-> |f_n(x) - f(x)| \le \varepsilon
+> \vert f_n(x) - f(x)\vert  \le \varepsilon
 > $$   
 > for all $  x \in [0,1] $  and for all $  n \ge N $ .
 
@@ -107,34 +108,34 @@ $$ f(x) := \lim_{n\to\infty} f_n(x) \quad \text{for all } x \in [0,1].$$
 We claim that for every $  \varepsilon>0 $  there exists $  N\in\mathbb{N} $  such that for all $  n \ge N $ ,  
 
 $$ 
-|f_n(x) - f(x)| \le \varepsilon \quad \text{for all } x \in [0,1].
+\vert f_n(x) - f(x)\vert  \le \varepsilon \quad \text{for all } x \in [0,1].
 $$   
  
 Indeed, since $  \{f_n\} $  is Cauchy in the uniform distance, there exists $  N $  such that for all $  m,n \ge N $ ,  
 
-$$ \max_{x\in[0,1]} |f_n(x) - f_m(x)| < \varepsilon.$$   
+$$ \max_{x\in[0,1]} \vert f_n(x) - f_m(x)\vert  < \varepsilon.$$   
 
 Fixing $  n \ge N $  and letting $  m \to \infty $  gives  
 
-$$ |f_n(x) - f(x)| \le \varepsilon \quad \text{for all } x \in [0,1].$$ 
+$$ \vert f_n(x) - f(x)\vert  \le \varepsilon \quad \text{for all } x \in [0,1].$$ 
 
 > (c) Show that $  f(x) $  is continuous on $ [0,1]$ . I.e., $  f \in C^0([0,1]) $ .  
 > *Hint:* To show $  f(x) $  is continuous at $  x_0 $ , consider  
 > $$ 
-> |f(x) - f(x_0)| \le |f(x) - f_n(x)| + |f_n(x) - f_n(x_0)| + |f_n(x_0) - f(x_0)|.
+> \vert f(x) - f(x_0)\vert  \le \vert f(x) - f_n(x)\vert  + \vert f_n(x) - f_n(x_0)\vert  + \vert f_n(x_0) - f(x_0)\vert .
 > $$ 
 
-We now show $  f $  is continuous on $ [0,1]$ . Fix $  x_0 \in [0,1] $  and $  \varepsilon>0 $ .  From part (b), there exists $  N_1 $  such that for all $  n \ge N_1 $ ,  for all $ x\in[0,1]$ , $ |f_n(x) - f(x)| < \varepsilon/3$ .
+We now show $  f $  is continuous on $ [0,1]$ . Fix $  x_0 \in [0,1] $  and $  \varepsilon>0 $ .  From part (b), there exists $  N_1 $  such that for all $  n \ge N_1 $ ,  for all $ x\in[0,1]$ , $ \vert f_n(x) - f(x)\vert  < \varepsilon/3$ .
 
-There exists $  N_2 $  such that for all $  n \ge N_2 $ ,  $ |f_n(x_0) - f(x_0)| < \varepsilon/3$ 
+There exists $  N_2 $  such that for all $  n \ge N_2 $ ,  $ \vert f_n(x_0) - f(x_0)\vert  < \varepsilon/3$ 
 
-Pick $  n \ge \max\{N_1,N_2\} $ . Since $  f_n\in C^0([0,1]) $ , there exists $  \delta > 0 $  such that for all $  x $  with $  |x-x_0|<\delta $ ,  $ |f_n(x) - f_n(x_0)| < \varepsilon/3$ .
+Pick $  n \ge \max\{N_1,N_2\} $ . Since $  f_n\in C^0([0,1]) $ , there exists $  \delta > 0 $  such that for all $  x $  with $  \vert x-x_0\vert <\delta $ ,  $ \vert f_n(x) - f_n(x_0)\vert  < \varepsilon/3$ .
 
 Then for such $  x $ ,  
 $$ 
 \begin{aligned}
-|f(x) - f(x_0)| 
-&\le |f(x) - f_n(x)| + |f_n(x) - f_n(x_0)| + |f_n(x_0) - f(x_0)| \\
+\vert f(x) - f(x_0)\vert  
+&\le \vert f(x) - f_n(x)\vert  + \vert f_n(x) - f_n(x_0)\vert  + \vert f_n(x_0) - f(x_0)\vert  \\
 &< \varepsilon/3 + \varepsilon/3 + \varepsilon/3 = \varepsilon.
 \end{aligned}
 $$   
@@ -145,22 +146,22 @@ Thus $  f $  is continuous at $  x_0 $ . Since $  x_0 $  was arbitrary, $  f \in
 
 Finally, we show $  f_n \to f $  in the uniform distance. Let $  \varepsilon>0 $ . Since $  (f_n) $  is Cauchy in the uniform distance, there exists $  N $  such that for all $  m,n \ge N $ ,  
 $$ 
-\max_{x\in[0,1]} |f_n(x) - f_m(x)| < \varepsilon.
+\max_{x\in[0,1]} \vert f_n(x) - f_m(x)\vert  < \varepsilon.
 $$   
 
 Fix $  n \ge N $ . Then for all $  x \in [0,1] $ ,  
 $$ 
-|f_n(x) - f(x)| = \lim_{m\to\infty} |f_n(x) - f_m(x)| \le \varepsilon.
+\vert f_n(x) - f(x)\vert  = \lim_{m\to\infty} \vert f_n(x) - f_m(x)\vert  \le \varepsilon.
 $$   
 
-Thus  $ d(f_n(x),f(x))=\max_{x\in[0,1]} |f_n(x) - f(x)| \le \varepsilon$ . Hence $  f_n \to f $ .
+Thus  $ d(f_n(x),f(x))=\max_{x\in[0,1]} \vert f_n(x) - f(x)\vert  \le \varepsilon$ . Hence $  f_n \to f $ .
 
 
 ### Problem 4
 
-Let $  \|\cdot\| $  be a norm on a vector space $  V $ , and let $  d(x,y) = \|x-y\| $  for all $  x, y \in V $ . Show the following three properties:
+Let $  \Vert  \cdot\Vert   $  be a norm on a vector space $  V $ , and let $  d(x,y) = \Vert  x-y\Vert   $  for all $  x, y \in V $ . Show the following three properties:
 
-(a) $  d(\lambda x, \lambda y) = |\lambda| d(x,y) $  for all $  \lambda \in \mathbb{R} $ , and for all $  x,y \in V $ .
+(a) $  d(\lambda x, \lambda y) = \vert \lambda\vert  d(x,y) $  for all $  \lambda \in \mathbb{R} $ , and for all $  x,y \in V $ .
 
 (b) Translation invariance: $  d(x+z, y+z) = d(x,y) $  for all $  x,y,z \in V $ .
 
@@ -168,21 +169,21 @@ Let $  \|\cdot\| $  be a norm on a vector space $  V $ , and let $  d(x,y) = \|x
 
 > (a)
 > $$ 
-d(\lambda x, \lambda y) = \|\lambda x - \lambda y\| = \|\lambda (x-y)\| = |\lambda| \|x-y\| = |\lambda| d(x,y)
+d(\lambda x, \lambda y) = \Vert  \lambda x - \lambda y\Vert   = \Vert  \lambda (x-y)\Vert   = \vert \lambda\vert  \Vert  x-y\Vert   = \vert \lambda\vert  d(x,y)
 $$ 
 >
 > (b)  
 > $$ 
-d(x+z, y+z) = \|(x+z) - (y+z)\| = \|x-y\| = d(x,y)
+d(x+z, y+z) = \Vert  (x+z) - (y+z)\Vert   = \Vert  x-y\Vert   = d(x,y)
 $$ 
 > 
-> (c) (i) Positive definite:  $ d(x,y) \ge 0.$  If $  x=y $ , then $  x-y=0 $ , so $  d(x,y)=0 $ .  If $  d(x,y)=0 $ , then $  \|x-y\|=0 $ , hence $  x=y $ .  
+> (c) (i) Positive definite:  $ d(x,y) \ge 0.$  If $  x=y $ , then $  x-y=0 $ , so $  d(x,y)=0 $ .  If $  d(x,y)=0 $ , then $  \Vert  x-y\Vert  =0 $ , hence $  x=y $ .  
 >
-> (ii) Symmetry:  $ d(x,y) = \|x-y\| = \|y-x\| = d(y,x)$ 
+> (ii) Symmetry:  $ d(x,y) = \Vert  x-y\Vert   = \Vert  y-x\Vert   = d(y,x)$ 
 >
 > (iii) Triangle inequality:
 > $$ 
-> d(x,z) = \|x-z\| \le \|x-y\| + \|y-z\| = d(x,y) + d(y,z)
+> d(x,z) = \Vert  x-z\Vert   \le \Vert  x-y\Vert   + \Vert  y-z\Vert   = d(x,y) + d(y,z)
 > $$ 
 
 ### Problem 5

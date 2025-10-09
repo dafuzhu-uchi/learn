@@ -57,7 +57,7 @@ Hint: Try drawing a picture, and use the fact that $\Vert \cdot\Vert _{\mathbb{R
 > 
 > (Case 2) No pair collinear. By $(*1)$, triangle inequality holds.
 
-![british-railway](/img/courses/mit18s190/pset1-1.jpg)
+![british-railway](/img/mit18s190/pset1-1.jpg)
 
 ### Problem 2
 Is $ d : C^{1}([0,1]) \times C^{1}([0,1]) \to [0,\infty) $ defined by  

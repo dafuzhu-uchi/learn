@@ -55,8 +55,8 @@ Let $ A_1, \dots, A_k \subset X$  be compact.
 
 We want to show $ \bigcup_{i=1}^k A_i$  is compact.
 
-> Let $ \{U_\alpha\}_{\alpha \in I}$  be an open cover of $ \bigcup_{i=1}^k A_i$ . $ \forall i,\ A_i \subset \bigcup_{\alpha \in I} U_\alpha \implies \{U_\alpha\} \text{ covers } A_i.$ 
+> Let $$\{U_\alpha\}_{\alpha \in I}$$  be an open cover of $ \bigcup_{i=1}^k A_i$ . $ \forall i,\ A_i \subset \bigcup_{\alpha \in I} U_\alpha \implies \{U_\alpha\} \text{ covers } A_i.$ 
 > 
-> Since $ A_i$  is compact,  $ \exists U_{\alpha^{(i)}_1}, \dots, U_{\alpha^{(i)}_{n_i}} \text{ such that } A_i \subset \bigcup_{j=1}^{n_i} U_{\alpha^{(i)}_j}.$ 
+> Since $ A_i$ is compact, $$\exists U_{\alpha^{(i)}_1}, \dots, U_{\alpha^{(i)}_{n_i}}$$ such that $$A_i \subset \bigcup_{j=1}^{n_i} U_{\alpha^{(i)}_j}$$. 
 >
-> Take the union of these finite subcovers, $ \bigcup_{i=1}^k \bigcup_{j=1}^{n_i} U_{\alpha^{(i)}_j}.$  This set is finite and covers $ \bigcup_{i=1}^k A_i$ . Therefore $ \bigcup_{i=1}^k A_i$  is compact. 
+> Take the union of these finite subcovers, $$\bigcup_{i=1}^k \bigcup_{j=1}^{n_i} U_{\alpha^{(i)}_j}$$.  This set is finite and covers $$\bigcup_{i=1}^k A_i$$ . Therefore $$\bigcup_{i=1}^k A_i$$  is compact. 
