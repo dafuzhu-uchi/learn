@@ -6,3 +6,5 @@ url: https://dafuzhu-uchi.github.io/learn
 
 plugins:
   - jekyll-default-layout
+
+favicon_ico: "/assets/images/favicon.ico"
