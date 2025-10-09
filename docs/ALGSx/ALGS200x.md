@@ -19,11 +19,11 @@ toc: true
 
 ## Programming challenges
 
-Document: [pdf](/pdf/ALGS200x/week1_programming_challenges.pdf)
+Document: [pdf](/static/pdf/algs200x/week1_programming_challenges.pdf)
 
 ## Algorithmic warm-up
 
-Document: [pdf](/pdf/ALGS200x/week2_algorithmic_warmup.pdf)
+Document: [pdf](/static/pdf/algs200x/week2_algorithmic_warmup.pdf)
 
 ### Fibonacci numbers
 
@@ -151,7 +151,7 @@ This can be easily proved by induction.
 
 ## Greedy algorithm
 
-Document: [pdf](/pdf/ALGS200x/week3_greedy_algorithms.pdf)
+Document: [pdf](/static/pdf/algs200x/week3_greedy_algorithms.pdf)
 
 Definition: *Subproblem* is a similar problem of smaller size. A greedy choice is called *safe choice* if there is an optimal solution consistent with this first choice.
 
@@ -283,7 +283,7 @@ Problem introduction:
 You are responsible for collecting signatures from all tenants of a certain building. For each tenant, you know a period of time when he or she is at home. You would like to collect all signatures by visiting the building as few times as possible.
 The mathematical model for this problem is the following. You are given a set of segments on a line and your goal is to mark as few points on a line as possible so that each segment contains at least one marked point.
 
-**Task**: Given a set of $ n $ segments $ \left\{\left[a_{0}, b_{0}\right],\left[a_{1}, b_{1}\right], \ldots,\left[a_{n-1}, b_{n-1}\right]\right\} $ with integer coordinates on a line, find the minimum number $ m $ of points such that each segment contains at least one point. That is, find a set of integers $ X $ of the minimum size such that for any segment $ \left[a_{i}, b_{i}\right] $ there is a point $ x \in X $ such that $ a_{i} \leq x \leq b_{i} $.
+**Task**: Given a set of $ n $ segments $$ \left\{\left[a_{0}, b_{0}\right],\left[a_{1}, b_{1}\right], \ldots,\left[a_{n-1}, b_{n-1}\right]\right\} $$ with integer coordinates on a line, find the minimum number $ m $ of points such that each segment contains at least one point. That is, find a set of integers $ X $ of the minimum size such that for any segment $ \left[a_{i}, b_{i}\right] $ there is a point $ x \in X $ such that $ a_{i} \leq x \leq b_{i} $.
 
 Procedure:
 - Sort the end of each segment from small to large: $[a_{\pi(1)}, b_{\pi(1)}], [a_{\pi(2)}, b_{\pi(2)}], \dots, [a_{\pi(n)}, b_{\pi(n)}]$, where $b_{\pi(1)} \leq b_{\pi(2)} \leq \dots \leq b_{\pi(n)}$.
@@ -389,7 +389,7 @@ Details for `cmp_to_key` see [Codecademy](https://www.codecademy.com/resources/d
 
 ## Divide-and-conquer
 
-Document: [pdf](/pdf/ALGS200x/week4_divide_and_conquer.pdf)
+Document: [pdf](/static/pdf/algs200x/week4_divide_and_conquer.pdf)
 
 ### Linear search
 
@@ -434,7 +434,7 @@ If $T(n)=aT(\lfloor n/b\rfloor)+O(n^d)$, for constraints $a>0,b>1,d\ge 0$, then
 - If $d=\log_b a, T(n)=O(n^d\log n)$
 - If $d<\log_b a, T(n)=O(n^{\log_b a})$
 
-![master](/img/algs200x/master_thm.png)
+![master](/static/img/algs200x/master_thm.png)
 
 Proof: The amount of work at level $i$ is $a^i O(n/b^i)^d=O(n^d)(a/b^d)^i$. The total work is $\sum_{i=0}^{\log_b n}O(n^d)(a/b^d)^i$.
 - When $a/b^d<1$ or $d>\log_b a,$
@@ -609,7 +609,7 @@ Exercise: [4-3] Partition3.
 
 ## Dynamic Programming 1
 
-Document: [pdf](/pdf/ALGS200x/week5_dynamic_programming1.pdf)
+Document: [pdf](/static/pdf/algs200x/week5_dynamic_programming1.pdf)
 
 `Money change` revisited. This time greedy algo cannot give a *safe* choice. DP can fix it.
 
@@ -644,11 +644,11 @@ First Bottom-up, then Top-down.
 
 `Edit distance` is another kind.
 
-![edit_distance](/img/algs200x/edit_distance.png)
+![edit_distance](/static/img/algs200x/edit_distance.png)
 
 ## Dynamic Programming 2
 
-Document: [pdf](/pdf/ALGS200x/week6_dynamic_programming2.pdf)
+Document: [pdf](/static/pdf/ALGS200x/week6_dynamic_programming2.pdf)
 
 ### Knapsack
 
