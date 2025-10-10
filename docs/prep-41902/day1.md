@@ -41,34 +41,31 @@ Build a fully-structured Python project called **`statlearn-pipeline`** that wil
 Create a clean, professional repository structure:
 
 ```
-statlearn-pipeline/
+stat-learn/
 ├── data/
 │   ├── raw/              # unprocessed CSVs
 │   ├── processed/        # clean data saved as parquet/csv
 │   └── external/         # optional external sources (e.g. Yahoo Finance, Kaggle)
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
-│   └── 02_regression_modeling.ipynb   # to be used later
+│   └── ...   # to be used later
 ├── src/
-│   └── statlearn/
+│   └── stat_learn/
 │       ├── __init__.py
-│       ├── data/
-│       │   ├── load_data.py
-│       │   ├── preprocess.py
-│       │   └── utils.py
-│       ├── features/
-│       │   └── feature_engineering.py
-│       ├── visualization/
-│       │   └── plots.py
+│       ├── data.py
+│       ├── features.py
+│       ├── visualization.py
 │       ├── models/
+│       │   ├── __init__.py
 │       │   ├── baseline.py
 │       │   └── metrics.py
-│       └── config/
-│           └── paths.py
+│       └── config.py
 ├── reports/
 │   ├── figures/
-│   └── summary.md
-├── environment.yml (or requirements.txt)
+│   └── summaries/
+├── pyproject.toml
+├── .venv
+├── .gitignore
 └── README.md
 ```
 
@@ -77,9 +74,9 @@ This structure ensures scalability when you add more models (ridge, trees, etc.)
 ## ⚙️ Part 2 – Environment & Data Access
 
 1. Create a **Conda or virtualenv** called `islp-env`.
-   Include `numpy`, `pandas`, `matplotlib`, `seaborn`, `sklearn`, and `islp`.
+   Include `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `jupyter`, `pyarrow` and `islp`.
 
-2. In a startup script (`src/config/paths.py`), define path constants that your other scripts will import — no hard-coded file paths.
+2. In a startup script (`src/config.py`), define path constants that your other scripts will import — no hard-coded file paths.
 
 3. Verify that you can access ISLP datasets (e.g., `Advertising`, `Wage`, `Smarket`).
 
@@ -120,7 +117,7 @@ End EDA by exporting:
 
 * `reports/figures/advertising_eda.png`
 * `reports/figures/smarket_eda.png`
-* `reports/summary.md` (include your observations).
+* `reports/summaries/day1.md` (include your observations).
 
 ## 🧮 Part 5 – Foundational Implementation Tasks
 
@@ -147,7 +144,7 @@ You’ll implement minimal reusable code that later chapters will extend:
 
 ## 🧠 Part 6 – Conceptual Reflection
 
-In `reports/summary.md`, include short answers:
+In `reports/summaries/day1.md`, include short answers:
 
 1. What is the **statistical learning problem** formalized as ( Y = f(X) + \varepsilon )?
    Explain how `Advertising` fits this form.
