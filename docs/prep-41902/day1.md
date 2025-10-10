@@ -42,7 +42,6 @@ Create a clean, professional repository structure:
 
 ```
 statlearn-pipeline/
-│
 ├── data/
 │   ├── raw/              # unprocessed CSVs
 │   ├── processed/        # clean data saved as parquet/csv
