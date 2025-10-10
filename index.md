@@ -30,7 +30,7 @@ Hands-on reproductions of academic and industry papers.
 
 Proof of completed courses and certifications.
 
-- [All Certificates](https://learn.dafuzhu.com/docs/certificates/)
+- [All Certificates](https://learn.dafuzhu.com/docs/certificates)
 
 ## 🧮 Study & Notes
 
