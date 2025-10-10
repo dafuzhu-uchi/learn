@@ -22,7 +22,7 @@ For three months starting from Oct 1st, learn coding four hours per day on the f
       - [ ] [PEP 8](https://peps.python.org/pep-0008/)
       - [ ] [Google python style guide](https://google.github.io/styleguide/pyguide.html)
   3. Project development
-      - [ ] [uv](https://docs.astral.sh/uv/guides/projects/)
+      - [x] [uv](https://docs.astral.sh/uv/guides/projects/)
       - [ ] [ruff](https://docs.astral.sh/ruff/)
       - [ ] [Scientific Python Library Development Guide](https://learn.scientific-python.org/development/)
       - [ ] [Version Control with Git](https://swcarpentry.github.io/git-novice/)
