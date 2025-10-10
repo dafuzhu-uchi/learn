@@ -32,26 +32,55 @@ nav_order: 9
 .cert-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  justify-content: center;     /* ✅ center the rows */
+  gap: 2rem;
+  max-width: 900px;            /* ✅ about 3 cards per line on desktop */
+  margin: 0 auto;
 }
+
 .cert-card {
-  flex: 0 1 240px;
+  flex: 0 1 calc(33.333% - 2rem);  /* ✅ 3 per row on PC */
+  box-sizing: border-box;
   text-align: center;
 }
+
 .cert-card img {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   transition: transform 0.2s ease;
+  max-width: 100%;
+  height: auto;
 }
+
 .cert-card img:hover {
   transform: scale(1.03);
 }
+
 .cert-card a {
   text-decoration: none;
   color: inherit;
 }
+
 .cert-card p {
   margin: .4rem 0;
   font-size: .9rem;
+}
+
+/* ✅ Responsive layout for tablets/phones */
+@media (max-width: 900px) {
+  .cert-card {
+    flex: 0 1 calc(50% - 1.5rem);  /* 2 per row */
+  }
+}
+
+@media (max-width: 600px) {
+  .cert-grid {
+    flex-direction: column;
+    align-items: center;          /* ✅ center single-column layout */
+  }
+  .cert-card {
+    flex: 0 1 90%;
+    max-width: 300px;
+  }
 }
 </style>
