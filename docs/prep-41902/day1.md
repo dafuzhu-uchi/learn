@@ -47,31 +47,28 @@ statlearn-pipeline/
 │   ├── raw/              # unprocessed CSVs
 │   ├── processed/        # clean data saved as parquet/csv
 │   └── external/         # optional external sources (e.g. Yahoo Finance, Kaggle)
-│
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   └── 02_regression_modeling.ipynb   # to be used later
-│
 ├── src/
-│   ├── __init__.py
-│   ├── data/
-│   │   ├── load_data.py
-│   │   ├── preprocess.py
-│   │   └── utils.py
-│   ├── features/
-│   │   └── feature_engineering.py
-│   ├── visualization/
-│   │   └── plots.py
-│   ├── models/
-│   │   ├── baseline.py
-│   │   └── metrics.py
-│   └── config/
-│       └── paths.py
-│
+│   └── statlearn/
+│       ├── __init__.py
+│       ├── data/
+│       │   ├── load_data.py
+│       │   ├── preprocess.py
+│       │   └── utils.py
+│       ├── features/
+│       │   └── feature_engineering.py
+│       ├── visualization/
+│       │   └── plots.py
+│       ├── models/
+│       │   ├── baseline.py
+│       │   └── metrics.py
+│       └── config/
+│           └── paths.py
 ├── reports/
 │   ├── figures/
 │   └── summary.md
-│
 ├── environment.yml (or requirements.txt)
 └── README.md
 ```
