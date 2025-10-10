@@ -3,7 +3,9 @@ title: MIT 18.100A
 nav_order: -1
 ---
 
-## Real Analysis
+# Real Analysis
+
+---
 
 Status: ✅ Completed
 

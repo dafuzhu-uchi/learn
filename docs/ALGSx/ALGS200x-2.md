@@ -8,6 +8,8 @@ toc: true
 
 # LeetCode Problem Companion
 
+---
+
 | File name | Concept      | Closest LeetCode Problem      | Description   |
 | ---- | ---------- | --------- | ------- |
 | [**2-1fibonacci**](https://github.com/dafuzhu-uchi/algs200x-algorithms/blob/master/Week2/2-1fibonacci.py)     | Fibonacci sequence                                  | [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                            | Compute the n-th Fibonacci number efficiently.              |

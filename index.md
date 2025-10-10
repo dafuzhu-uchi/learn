@@ -6,6 +6,8 @@ nav_order: -10000
 
 # Self-Learn
 
+---
+
 Welcome to **learn.dafuzhu.com** — my long-term notebook for structured self-learning in  
 mathematics, machine learning, and quantitative finance.
 

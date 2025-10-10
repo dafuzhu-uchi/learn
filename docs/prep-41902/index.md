@@ -4,7 +4,9 @@ parent: Coding Camp
 nav_order: 1
 ---
 
-## Statistical Learning
+# Statistical Learning
+
+---
 
 Status: 🔄 In progress 
 

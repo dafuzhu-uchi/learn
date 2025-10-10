@@ -8,6 +8,8 @@ has_toc: false
 
 # Noob Coder Ascension Plan
 
+---
+
 For three months starting from Oct 1st, learn coding four hours per day on the following topics.
 
 - (2h) DSA (Edx, leetcode) - for interviews

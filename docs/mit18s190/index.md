@@ -3,7 +3,9 @@ title: MIT 18.S190
 nav_order: -2
 ---
 
-## Introduction to Metric Spaces
+# Introduction to Metric Spaces
+
+---
 
 Status: ✅ Completed
 

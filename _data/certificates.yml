@@ -1,0 +1,12 @@
+- name: Numerical Linear Algebra for Financial Engineering
+  provider: Baruch College
+  year: 2025
+  month: March
+  image: /assets/images/certs/NLA-D-DafuZhu.png
+  pdf: /assets/pdfs/certs/NLA-D-DafuZhu.pdf
+- name: Neural Networks and Deep Learning
+  provider: Coursera
+  month: Sept
+  year: 2025
+  image: /assets/images/certs/Coursera_MOAQW2YMUMR4.png
+  pdf: /assets/pdfs/certs/Coursera_MOAQW2YMUMR4.pdf

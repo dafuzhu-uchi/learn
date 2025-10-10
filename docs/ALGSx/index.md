@@ -4,7 +4,8 @@ parent: Coding Camp
 nav_order: 2
 ---
 
-## Algorithms and Data Structures
+# Algorithms and Data Structures
+---
 
 |  | Dashboard |
 |:--:|:--:|
