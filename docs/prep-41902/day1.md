@@ -6,7 +6,7 @@ math: true
 toc: true
 ---
 
-# 🧭 Day 1: Project Setup & Exploratory Foundations
+# Day 1: Project Setup & Exploratory Foundations
 {: .no_toc}
 
 ## Table of contents
@@ -30,6 +30,11 @@ Build a fully-structured Python project called **`statlearn-pipeline`** that wil
 2. Support modular experiments (you’ll add models in later days).
 3. Produce standardized reports (plots, tables, metrics).
 4. Be reproducible, version-controlled, and ready for extensions (ridge, SVM, etc.).
+
+## 📚 Part 0 - Reading
+
+1. ISL Chap 1
+2. ISL Chap 2.1 - 2.2
 
 ## 🗂️ Part 1 – Project Architecture
 
@@ -144,7 +149,7 @@ You’ll implement minimal reusable code that later chapters will extend:
    * Commit after each milestone.
    * Write a concise README explaining your project scope, dataset purpose, and next steps (e.g., “next we’ll fit a linear model on the Advertising dataset”).
 
-## 🧠 Part 6 – Conceptual Reflection (write-up, not code)
+## 🧠 Part 6 – Conceptual Reflection
 
 In `reports/summary.md`, include short answers:
 
