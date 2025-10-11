@@ -2,6 +2,8 @@
 title: Stat Learning
 parent: Coding Camp
 nav_order: 1
+nav_exclude: true
+search_exclude: true
 ---
 
 # Statistical Learning

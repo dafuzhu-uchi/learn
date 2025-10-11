@@ -33,8 +33,6 @@ For three months starting from Oct 1st, learn coding four hours per day on the f
       - FINM 325 Assignment
       - [ ] Rewrite resume projects
 - Kaggle: Beat S&P500
-  1. Polars: [document](https://docs.pola.rs/api/python/stable/reference/index.html)
-  2. Literature review
-  3. Statistical learning: [book](./prep-41902)
+  - Learning by doing
 
 [Quantlib](https://github.com/lballabio/QuantLib) is a great resource, however it's written in C++. Definitely won't work on it before capturing the basics of C++. References for future use: [Implementing quantlib](/pdf/implementingquantlib.pdf), [Quantlib-python Cookbook](/pdf/quantlibpythoncookbook.pdf).
