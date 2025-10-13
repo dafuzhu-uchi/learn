@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Certificates
-nav_order: 9
+nav_order: 0
 ---
 
 # Certificates

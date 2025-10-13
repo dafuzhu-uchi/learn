@@ -8,9 +8,9 @@ nav_order: 1
 
 ## Project Overview
 
-**Competition**: Hull Tactical - Market Prediction
-**Timeline**: Oct 2025 - Dec 2025  
-**Goal**: Predict S&P 500 excess returns and optimize allocation strategy
+- **Competition**: Hull Tactical - Market Prediction
+- **Timeline**: Oct 2025 - Dec 2025  
+- **Goal**: Predict S&P 500 excess returns and optimize allocation strategy
 
 ### Quick Links
 - [GitHub Repository]()
@@ -19,14 +19,16 @@ nav_order: 1
 
 ### Expected Timeline
 
-Week 1-2:  EDA + Feature Engineering
-Week 3-4:  Model Implementation (3-5 models)
-Week 5:    Initial Competition Submission ✓
-Week 6-7:  Model Improvement + Ensembling
-Week 8:    Final Tuning + Documentation
+| Time | Task |
+|---|---|
+| Week 1-2 |  EDA + Feature Engineering |
+|Week 3-4 | Model Implementation (3-5 models) |
+|Week 5 |  Initial Competition Submission ✓|
+|Week 6-7|  Model Improvement + Ensembling|
+|Week 8|    Final Tuning + Documentation|
 
 ### Current Status
-- **Phase**: Feature Engineering (Week 1/8)
+- **Phase**: EDA (Week 1/8)
 - **Best Score**: TBD
 - **Leaderboard Rank**: TBD
 
