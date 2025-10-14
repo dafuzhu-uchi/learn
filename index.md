@@ -13,7 +13,7 @@ mathematics, machine learning, and quantitative finance.
 
 ## 🚀 Active Tracks
 
-- **[Data Structure and Algorithms](/docs/algsx/)**  
+- **[Data Structure and Algorithms](/docs/ALGSx/)**  
   Interview prep · Problem solving · Complexity · LeetCode
 
 - **[Kaggle - Hull Tactical](/docs/kaggle-hull/)**  
