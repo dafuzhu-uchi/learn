@@ -19,11 +19,11 @@ toc: true
 
 ## Programming challenges
 
-Document: [pdf](/static/pdf/algs200x/week1_programming_challenges.pdf)
+Document: [pdf](/assets/pdfs/algs200x/week1_programming_challenges.pdf)
 
 ## Algorithmic warm-up
 
-Document: [pdf](/static/pdf/algs200x/week2_algorithmic_warmup.pdf)
+Document: [pdf](/assets/pdfs/algs200x/week2_algorithmic_warmup.pdf)
 
 ### Fibonacci numbers
 
