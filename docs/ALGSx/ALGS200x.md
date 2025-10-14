@@ -151,7 +151,7 @@ This can be easily proved by induction.
 
 ## Greedy algorithm
 
-Document: [pdf](/static/pdf/algs200x/week3_greedy_algorithms.pdf)
+Document: [pdf](/assets/pdfs/algs200x/week3_greedy_algorithms.pdf)
 
 Definition: *Subproblem* is a similar problem of smaller size. A greedy choice is called *safe choice* if there is an optimal solution consistent with this first choice.
 
@@ -389,7 +389,7 @@ Details for `cmp_to_key` see [Codecademy](https://www.codecademy.com/resources/d
 
 ## Divide-and-conquer
 
-Document: [pdf](/static/pdf/algs200x/week4_divide_and_conquer.pdf)
+Document: [pdf](/assets/pdfs/algs200x/week4_divide_and_conquer.pdf)
 
 ### Linear search
 
@@ -609,7 +609,7 @@ Exercise: [4-3] Partition3.
 
 ## Dynamic Programming 1
 
-Document: [pdf](/static/pdf/algs200x/week5_dynamic_programming1.pdf)
+Document: [pdf](/assets/pdfs/algs200x/week5_dynamic_programming1.pdf)
 
 `Money change` revisited. This time greedy algo cannot give a *safe* choice. DP can fix it.
 
@@ -648,7 +648,7 @@ First Bottom-up, then Top-down.
 
 ## Dynamic Programming 2
 
-Document: [pdf](/static/pdf/ALGS200x/week6_dynamic_programming2.pdf)
+Document: [pdf](/assets/pdfs/ALGS200x/week6_dynamic_programming2.pdf)
 
 ### Knapsack
 
