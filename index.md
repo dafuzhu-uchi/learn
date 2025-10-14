@@ -16,14 +16,14 @@ mathematics, machine learning, and quantitative finance.
 - **[Data Structure and Algorithms](/docs/algsx/)**  
   Interview prep · Problem solving · Complexity · LeetCode
 
-- **[Statistical Learning](/docs/prep-41902/)**  
+- **[Kaggle - Hull Tactical](/docs/kaggle-hull/)**  
   Machine learning · Kaggle · Modeling · Python project
 
 ## 🧩 Reproduce (Papers)
 
 Hands-on reproductions of academic and industry papers.
 
-- [Trading via Image Classification (Naftali Cohen 2020)]()
+- [Empirical Asset Pricing via Machine Learning](https://dachxiu.chicagobooth.edu/download/ML.pdf)
 - [More Reproductions →]()
 
 ## 🎓 Certificates & Milestones
