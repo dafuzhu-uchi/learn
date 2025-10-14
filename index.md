@@ -19,12 +19,12 @@ mathematics, machine learning, and quantitative finance.
 - **[Kaggle - Hull Tactical](/docs/kaggle-hull/)**  
   Machine learning · Kaggle · Modeling · Python project
 
-## 🧩 Reproduce (Papers)
+## 🧩 Readings (Papers)
 
 Hands-on reproductions of academic and industry papers.
 
 - [Empirical Asset Pricing via Machine Learning](https://dachxiu.chicagobooth.edu/download/ML.pdf)
-- [More Reproductions →]()
+- [Financial Machine Learning](http://dafuzhu-uchi.github.io/library/Finance/Financial_Machine_Learning.pdf)
 
 ## 🎓 Certificates & Milestones
 
