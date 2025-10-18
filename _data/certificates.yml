@@ -22,3 +22,9 @@
   year: 2025
   image: /assets/images/certs/UCSanDiegoX-ALGS200x.png
   pdf: /assets/pdfs/certs/UCSanDiegoX-ALGS200x.pdf
+- name: Intermediate Machine Learning
+  provider: Kaggle
+  month: Oct
+  year: 2025
+  image: /assets/images/certs/Intermediate_Machine_Learning.png
+  pdf: /assets/pdfs/certs/Intermediate_Machine_Learning.pdf
