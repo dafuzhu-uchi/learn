@@ -16,7 +16,7 @@ For three months starting from Oct 1st, learn coding four hours per day on the f
 - Industrial practice
   1. Standard
       - [ ] [PEP 8](https://peps.python.org/pep-0008/)
-      - [ ] [Google python style guide (Oct 27-28)](https://google.github.io/styleguide/pyguide.html)
+      - [ ] [Google python style guide](https://google.github.io/styleguide/pyguide.html)
   2. Version control and git
       - [ ] [Version Control with Git](https://swcarpentry.github.io/git-novice/)
       - [ ] [MIT missing semester](https://missing.csail.mit.edu/)
