@@ -12,7 +12,7 @@ has_toc: false
 
 Starting from Oct 26,
 
-- all systematic learning, see [csdiy](./csdiy)
+- All systematic learning, see [csdiy](./csdiy)
 - Documents
   1. Writing style
       - [ ] [PEP 8](https://peps.python.org/pep-0008/)
