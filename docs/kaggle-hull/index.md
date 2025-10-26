@@ -13,7 +13,7 @@ nav_order: 1
 - **Goal**: Predict S&P 500 excess returns and optimize allocation strategy
 
 ### Quick Links
-- [GitHub Repository]()
+- [GitHub Repository](https://github.com/dafuzhu-uchi/hull-alpha)
 - [Competition Page](https://www.kaggle.com/competitions/hull-tactical-market-prediction)
 - [Latest Submission]()
 
@@ -28,7 +28,7 @@ nav_order: 1
 |Week 8|    Final Tuning + Documentation|
 
 ### Current Status
-- **Phase**: EDA (Week 1/8)
+- **Phase**: Feature Engineering (Week 2/8)
 - **Best Score**: TBD
 - **Leaderboard Rank**: TBD
 
@@ -44,7 +44,7 @@ nav_order: 1
 
 📚 **Literature Review**: Survey of relevant academic papers  
 📊 **Data & EDA**: Understanding the competition dataset  
-🔧 **Methodology**: Technical approach and methods  
-📈 **Progress**: Weekly updates and results  
+🔧 **[Methodology](./methodology)**: Technical approach and methods  
+📈 **[Progress](./progress)**: Weekly updates and results  
 💻 **Code**: Implementation details and documentation  
 💡 **Learnings**: Reflections and insights
