@@ -4,7 +4,7 @@ parent: Coding Camp
 nav_order: 0
 ---
 
-Take advantage of the famous [csdiy](https://csdiy.wiki/) together with Claude's suggestion on my current situation, I concluded the focus for the next couple of months.
+Taking advantage of the well-known [CSDIY](https://csdiy.wiki/) and Claude’s suggestions for my current situation, I’ve decided on my focus for the next couple of months.
 
 - [MIT missing semester](https://missing.csail.mit.edu/)
 - Data Structures and Algorithms

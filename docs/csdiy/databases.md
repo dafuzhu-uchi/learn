@@ -1,7 +1,7 @@
 ---
 title: Databases
 parent: CS DIY
-nav_order: 1
+nav_order: 2
 toc: true
 ---
 
