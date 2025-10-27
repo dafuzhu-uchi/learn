@@ -6,7 +6,7 @@ nav_order: 0
 
 Taking advantage of the well-known [CSDIY](https://csdiy.wiki/) and Claude’s suggestions for my current situation, I’ve decided on my focus for the next couple of months.
 
-- [MIT missing semester](https://missing.csail.mit.edu/)
+- [MIT missing semester](./mit-missing-semester)
 - Data Structures and Algorithms
   - [Neetcode](https://neetcode.io/courses): Primary
   - [CS61B](https://sp21.datastructur.es/): use [gradescope](https://www.gradescope.com/courses/137626) for submission
