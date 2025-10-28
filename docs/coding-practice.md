@@ -15,7 +15,7 @@ Starting from Oct 26,
 - All systematic learning, see [csdiy](./csdiy)
 - Documents
   1. Writing style
-      - [ ] [PEP 8](https://peps.python.org/pep-0008/)
+      - [x] [PEP 8](https://peps.python.org/pep-0008/)
       - [ ] [Google python style guide](https://google.github.io/styleguide/pyguide.html)
   2. [Version control and git](https://swcarpentry.github.io/git-novice/)
   3. Project development
