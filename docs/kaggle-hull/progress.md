@@ -4,6 +4,15 @@ parent: Kaggle - Hull Tactical
 nav_order: 2
 ---
 
+# Progress
+{: .no_toc}
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ## Oct 13-19 (Week 1)
 
 Build basic structure and nothing else
