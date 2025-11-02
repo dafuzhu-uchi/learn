@@ -6,14 +6,14 @@ nav_order: 0
 
 Taking advantage of the well-known [CSDIY](https://csdiy.wiki/) and Claude’s suggestions for my current situation, I’ve decided on my focus for the next couple of months.
 
-- [MIT missing semester](./mit-missing-semester)
+- [`./mit-missing-semester`](https://missing.csail.mit.edu/)
 - Data Structures and Algorithms
-  - [Neetcode](https://neetcode.io/courses): Primary
-  - [CS61B](https://sp21.datastructur.es/): use [gradescope](https://www.gradescope.com/courses/137626) for submission
-  - [CS170](https://cs170.org/): [lecture notes](https://smartspot2.github.io/assets/pdf/CS170_Lecture_Notes.pdf), only focus on DP/graph
-- [Databases](./databases)
+  - [`./neetcode`](https://neetcode.io/courses): Primary
+  - [`./cs61b`](https://sp21.datastructur.es/): use [gradescope](https://www.gradescope.com/courses/137626) for submission
+  - [`./cs170`](https://cs170.org/): [lecture notes](https://smartspot2.github.io/assets/pdf/CS170_Lecture_Notes.pdf), only focus on DP/graph
+- [`./databases`](./databases)
 - Distributed System
-  - [MIT 6.824](http://nil.csail.mit.edu/6.824/2020/schedule.html): do lectures only
+  - [`./mit6.824`](http://nil.csail.mit.edu/6.824/2020/schedule.html): do lectures only
 - ~~Parallel Computing~~ - **Dropped**
   - [Stanford CS149](https://gfxcourses.stanford.edu/cs149/fall23/): [playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rMp7MTFr4hQsDEcX7Bx6Odp), 
 - ~~Software Engineering~~ - **Dropped**
