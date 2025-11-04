@@ -12,7 +12,7 @@ has_toc: false
 
 Starting from Oct 26,
 
-- All systematic learning, see [csdiy](./csdiy)
+- All systematic learning, see [`./csdiy`](./csdiy)
 - Documents
   1. Writing style
       - [x] [PEP 8](https://peps.python.org/pep-0008/)
@@ -27,9 +27,9 @@ Starting from Oct 26,
   - [bt](https://github.com/pmorissette/bt)
   - [Backtrader](https://github.com/mementum/backtrader)
 - Hands-on projects
-  - FINM 325 Assignments (Backtesting Framework): [`./pyquant`](./pyquant) 🌟🌟🌟🌟
+  - FINM 325 Assignments (Backtesting Framework): [`./backtest`](./backtest) 🌟🌟🌟🌟
   - Exchange Simulator / Matching Engine: [`./simulator`](./simulator) 🌟🌟🌟🌟🌟
-  - Market Data Pipeline: [`data_pipeline`](./data_pipeline) 🌟🌟🌟🌟🌟
+  - Market Data Pipeline: [`./data_pipeline`](./data_pipeline) 🌟🌟🌟🌟🌟
   - Rewrite resume projects
     - ~~Infinity capital~~
     - DolphinDB (rewrite with python) 🌟🌟🌟

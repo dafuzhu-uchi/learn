@@ -1,7 +1,7 @@
 ---
 title: CS DIY
 parent: Coding Camp
-nav_order: -1000
+nav_order: 0
 ---
 
 Taking advantage of the well-known [CSDIY](https://csdiy.wiki/) and Claude’s suggestions for my current situation, I’ve decided on my focus for the next couple of months.

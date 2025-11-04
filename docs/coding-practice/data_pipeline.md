@@ -1,6 +1,6 @@
 ---
 title: Data Pipeline
 parent: Coding Camp
-nav_order: -2
+nav_order: 2
 ---
 
