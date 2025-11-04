@@ -1,7 +1,7 @@
 ---
 title: Algo & DS
 parent: Coding Camp
-nav_order: 2
+nav_order: -1
 ---
 
 # Algorithms and Data Structures
