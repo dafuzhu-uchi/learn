@@ -13,18 +13,11 @@ mathematics, machine learning, and quantitative finance.
 
 ## 🚀 Active Tracks
 
-- **[Data Structure and Algorithms](/docs/ALGSx/)**  
+- **[CS DIY](/docs/coding-practice/csdiy/)**  
   Interview prep · Problem solving · Complexity · LeetCode
 
-- **[Kaggle - Hull Tactical](/docs/kaggle-hull/)**  
+- **[Backtesting Framework](/docs/coding-practice/backtest/)**  
   Machine learning · Kaggle · Modeling · Python project
-
-## 🧩 Readings (Papers)
-
-Hands-on reproductions of academic and industry papers.
-
-- [Empirical Asset Pricing via Machine Learning](https://dachxiu.chicagobooth.edu/download/ML.pdf)
-- [Financial Machine Learning](http://dafuzhu-uchi.github.io/library/Finance/Financial_Machine_Learning.pdf)
 
 ## 🎓 Certificates & Milestones
 
