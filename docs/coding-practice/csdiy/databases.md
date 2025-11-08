@@ -21,6 +21,7 @@ toc: true
 **Goal:** Get comfortable writing and optimizing SQL queries
 
 **Resources:**
+- [PostgreSQL for Everybody Specialization](https://www.coursera.org/specializations/postgresql-for-everybody) - Complete all lessons (2 weeks)
 - [SQL Bolt](https://sqlbolt.com/) - Complete all lessons (4 hours)
 - [LeetCode SQL Top 50](https://leetcode.com/studyplan/top-sql-50/) - Solve all problems (10 hours)
 - [Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/) - Skim for advanced patterns (1 hour)
@@ -69,20 +70,6 @@ toc: true
 **Specific Topics:**
 - [Hypertables Explained](https://docs.tigerdata.com/use-timescale/latest/hypertables/) - Core concept
 - [Time-Series Queries](https://docs.tigerdata.com/use-timescale/latest/query-data/) - Practical examples
-
-### ClickHouse (Columnar Database)
-
-**Official Resources:**
-- [ClickHouse Documentation - Introduction](https://clickhouse.com/docs/en/intro) - Start here
-- [ClickHouse for Time-Series](https://clickhouse.com/docs/en/guides/developer/time-series) - Key use case
-- [ClickHouse vs Traditional Databases](https://clickhouse.com/docs/en/concepts/why-clickhouse-is-so-fast) - Understanding the architecture
-
-**Practical Guides:**
-- [Getting Started with ClickHouse](https://clickhouse.com/docs/en/getting-started/quick-start) - Hands-on tutorial
-- [ClickHouse for Financial Data](https://clickhouse.com/blog/clickhouse-for-financial-data) - Directly relevant blog post
-
-**Video:**
-- [ClickHouse Introduction](https://www.youtube.com/watch?v=JjFJfPP66Ug) - Overview (20 min)
 
 ### kdb+/q (Finance Industry Standard)
 
