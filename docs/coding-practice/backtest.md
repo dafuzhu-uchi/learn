@@ -8,7 +8,7 @@ nav_order: 1
 
 ---
 
-Github repo: [`./pyquant`](https://github.com/dafu-zhu/pyquant)
+Github repo: [`./trading-system`](https://github.com/dafu-zhu/trading-system)
 
 Based on FINM 32500 Homeworks
 
