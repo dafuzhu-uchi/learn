@@ -23,9 +23,8 @@ Starting from Oct 26,
       - [ ] [ruff](https://docs.astral.sh/ruff/)
       - [ ] [Scientific Python Library Development Guide](https://learn.scientific-python.org/development/)
       - [ ] [Python Packaging User Guide](https://packaging.python.org/en/latest/)
-- Repo to learn (optional)
-  - [bt](https://github.com/pmorissette/bt)
-  - [Backtrader](https://github.com/mementum/backtrader)
+- Practical tools
+  - [`./aws/cloud`](https://skillbuilder.aws/learn)
 - Hands-on projects
   - FINM 325 Assignments (Backtesting Framework): [`./backtest`](./backtest) 🌟🌟🌟🌟
   - Exchange Simulator / Matching Engine: [`./simulator`](./simulator) 🌟🌟🌟🌟🌟
@@ -33,6 +32,8 @@ Starting from Oct 26,
   - Rewrite resume projects
     - ~~Infinity capital~~
     - DolphinDB (rewrite with python) 🌟🌟🌟
+- Other references
+  - [`./roadmap`](https://roadmap.sh/)
 
 [Quantlib](https://github.com/lballabio/QuantLib) is a great resource, however it's written in C++. Definitely won't work on it before capturing the basics of C++. References for future use: [Implementing quantlib](/pdf/implementingquantlib.pdf), [Quantlib-python Cookbook](/pdf/quantlibpythoncookbook.pdf).
 
