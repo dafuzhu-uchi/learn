@@ -33,7 +33,7 @@ Starting from Oct 26,
     - ~~Infinity capital~~
     - DolphinDB (rewrite with python) 🌟🌟🌟
 - Other references
-  - [`./roadmap`](https://roadmap.sh/backend)
+  - [`./roadmap/backend`](https://roadmap.sh/backend)
 
 [Quantlib](https://github.com/lballabio/QuantLib) is a great resource, however it's written in C++. Definitely won't work on it before capturing the basics of C++. References for future use: [Implementing quantlib](/pdf/implementingquantlib.pdf), [Quantlib-python Cookbook](/pdf/quantlibpythoncookbook.pdf).
 
